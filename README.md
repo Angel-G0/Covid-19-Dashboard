@@ -1,4 +1,4 @@
-# COVID-19 Power BI Dashboard Template - 2022
+# COVID-19 Power BI Dashboard
 
 This repository contains a **Power BI template file (`.pbit`)** that visualizes global COVID-19 data from 2020 to 2022. The dashboard provides an interactive overview of key metrics such as positive cases, deaths, and mortality rates by country, enabling users to explore the global impact of the pandemic.
 
@@ -47,12 +47,7 @@ While working on this dashboard, a few things stood out:
    - Open the `.pbit` file in Power BI Desktop. This is a template file, so you will need to provide your own data source when opening it.
 
 3. **Connect to Your Data**:
-   - The template requires a dataset to be imported. You can use any COVID-19 dataset that includes key columns like:
-     - Positive case counts (`PEOPLE_POSITIVE_CASES_COUNT`)
-     - Death counts (`PEOPLE_DEATH_COUNT`)
-     - Dates of reporting (`REPORT_DATE`)
-     - Country information (`COUNTRY_SHORT_NAME`)
-   - Once connected, the data will populate across the dashboard visuals.
+   -Provide the downloaded dataset file (covid19_dataset.csv) to populate the dashboard with data.
 
 4. **Explore the Dashboard**:
    - The dashboard features several interactive elements:
